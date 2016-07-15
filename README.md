@@ -20,7 +20,7 @@ After pasting the PaintCode generated code into your app, replace `UIBezierPath.
 bezierPath.fit(into: rect).moveCenter(to: rect.center).fill()
 ```
 
-This scale the bezier path bound rect to fit into **rect** without loosing quality and then center into the **rect** center.
+This resize the bezier path bound rect to fit into **rect** without loosing quality and then center into the **rect** center.
 
 ## Licence
 
